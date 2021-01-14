@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="BodyController.cpp">
+      <Filter>controller</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginMessage.cpp">
+      <Filter>pojo</Filter>
+    </ClCompile>
+    <ClCompile Include="IAResultMessage.cpp">
+      <Filter>pojo</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTcpListener.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="userinfo.cpp">
+      <Filter>pojo</Filter>
+    </ClCompile>
+    <ClCompile Include="PayloadEnCoder.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="IdentityAuthMapper.cpp">
+      <Filter>dao</Filter>
+    </ClCompile>
+    <ClCompile Include="PayloadDeCoder.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="PermissionSechService.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="Dao.cpp">
+      <Filter>dao</Filter>
+    </ClCompile>
+    <ClCompile Include="IdentityAuthService.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="PermissionSechMapper.cpp">
+      <Filter>dao</Filter>
+    </ClCompile>
+    <ClCompile Include="Rule.cpp">
+      <Filter>pojo</Filter>
+    </ClCompile>
+    <ClCompile Include="Web.cpp">
+      <Filter>pojo</Filter>
+    </ClCompile>
+    <ClCompile Include="Usertype.cpp">
+      <Filter>pojo</Filter>
+    </ClCompile>
+    <ClCompile Include="ACResultMessage.cpp">
+      <Filter>pojo</Filter>
+    </ClCompile>
+    <ClCompile Include="CleanService.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="DbModmapper.cpp">
+      <Filter>dao</Filter>
+    </ClCompile>
+    <ClCompile Include="Executive.cpp">
+      <Filter>pojo</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeStatusModMessage.cpp">
+      <Filter>pojo</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonService.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitMessage.cpp">
+      <Filter>pojo</Filter>
+    </ClCompile>
+    <ClCompile Include="timertask.h">
+      <Filter>头文件\tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{164f2d8c-099d-4e4b-a78e-19b8cab157c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pojo">
+      <UniqueIdentifier>{9be9702d-b03c-410b-9de0-532f16da4b4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controller">
+      <UniqueIdentifier>{04474aef-8cc0-4b66-a3e0-4c83030b4011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service">
+      <UniqueIdentifier>{14dac2eb-3dd7-4c14-b2dd-55740cf02a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dao">
+      <UniqueIdentifier>{7582a40c-6326-4b28-9a8d-72c64d1b2e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{748d1e65-0b81-4ccb-a0b3-c7f98df62c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\controller">
+      <UniqueIdentifier>{e0578640-f7aa-4320-93d3-5cfee3d75603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\dao">
+      <UniqueIdentifier>{1d31ffa3-31d4-4b74-9655-6b30a6f1342b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tools">
+      <UniqueIdentifier>{e078a969-7e7f-456b-8c4c-ac271adae539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\service">
+      <UniqueIdentifier>{090a5b4c-7795-4102-845d-035151a034e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\pojo">
+      <UniqueIdentifier>{3687cec8-e065-4f6a-a95b-d0043129c7b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BodyController.h">
+      <Filter>头文件\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonUtil.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Dao.h">
+      <Filter>头文件\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="IAResultMessage.h">
+      <Filter>头文件\pojo</Filter>
+    </ClInclude>
+    <ClInclude Include="IdentityAuthMapper.h">
+      <Filter>头文件\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="IdentityAuthService.h">
+      <Filter>头文件\service</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTcpListener.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="PayloadDeCoder.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="PayloadEnCoder.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="PermissionSechMapper.h">
+      <Filter>头文件\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="PermissionSechService.h">
+      <Filter>头文件\service</Filter>
+    </ClInclude>
+    <ClInclude Include="userinfo.h">
+      <Filter>头文件\pojo</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginMessage.h">
+      <Filter>头文件\pojo</Filter>
+    </ClInclude>
+    <ClInclude Include="Rule.h">
+      <Filter>头文件\pojo</Filter>
+    </ClInclude>
+    <ClInclude Include="Web.h">
+      <Filter>头文件\pojo</Filter>
+    </ClInclude>
+    <ClInclude Include="ACResultMessage.h">
+      <Filter>头文件\pojo</Filter>
+    </ClInclude>
+    <ClInclude Include="Usertype.h">
+      <Filter>头文件\pojo</Filter>
+    </ClInclude>
+    <ClInclude Include="CleanService.h">
+      <Filter>头文件\service</Filter>
+    </ClInclude>
+    <ClInclude Include="DbModmapper.h">
+      <Filter>头文件\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="Executive.h">
+      <Filter>头文件\pojo</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeStatusModMessage.h">
+      <Filter>头文件\pojo</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonService.h">
+      <Filter>头文件\service</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitMessage.h">
+      <Filter>头文件\pojo</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
